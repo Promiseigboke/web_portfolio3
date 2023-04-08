@@ -73,6 +73,9 @@ display: flex;
 main .banner .screen div {
   color:white;
   transform:scale(2);
+  text-align: center;
+  position: relative;
+  top:-10vh;
 }
 main .banner .screen div button {
   padding: 1em 3em ;
@@ -108,7 +111,7 @@ main .about_me div:nth-of-type(1) {
   flex-direction: column;
   align-items: center;
 position: relative;
-top:-14%;
+top:-10%;
 
 }
 main .about_me div:nth-of-type(1) h2  {
@@ -157,7 +160,7 @@ main .about_me div:nth-of-type(2) button {
   border-radius:4em;
 }
 main .services {
-  height: 50vh;
+  height: 60vh;
   width: 100vw;
   margin-bottom: 10em;
   background-color: #f8f9fa;
@@ -171,12 +174,12 @@ main .services h1  {
 main .services h3 {
 font-size:2.5em;
 position: relative;
-top:-14%;
+top:-10%;
 text-align: center;
 }
 main .services hr {
 position: relative;
-top:-14%;
+top:-10%;
 margin: auto;
 height: 0.2em;
   width: 10vw;
@@ -187,7 +190,7 @@ border: 1px solid black;
 }
 main .services div {
   position: relative;
-  top:-18%;
+  top:-14%;
   left:7%;
   display: flex;
   flex-wrap: wrap;
@@ -230,12 +233,12 @@ font-family: mySecondFont;
 main .summary h3 {
 font-size:2.5em;
 position: relative;
-top:-14%;
+top:-10%;
 text-align: center;
 }
 main .summary hr {
 position: relative;
-top: -14%;
+top: -10%;
 margin: auto;
 height: 0.2em;
   width: 10vw;
@@ -437,12 +440,12 @@ font-family: mySecondFont;
 main .contact h3 {
 font-size:2.5em;
 position: relative;
-top:-14%;
+top:-10%;
 text-align: center;
 }
 main .contact hr {
 position: relative;
-top: -14%;
+top: -10%;
 margin: auto;
 height: 0.2em;
   width: 10vw;
@@ -570,16 +573,16 @@ main .banner .screen div {
 }
 main .about_me {
   height: 160vh;
-  margin-top:2em;
-  padding-top:2em;
-  margin-bottom: 2em;
+  margin-top:0em;
+  padding-top:0em;
+  margin-bottom: -7em;
 }
 main .about_me h1 {
   font-size: 4em;
 }
 main .about_me div:nth-of-type(1) {
  position: relative;
- top:-6%;
+ top:-4%;
 }
 main .about_me div:nth-of-type(1) h2  {
   font-size:2em;
@@ -589,7 +592,7 @@ main .about_me div:nth-of-type(1) hr {
   margin-bottom: 2em;
 }
 main .about_me div:nth-of-type(1) h3 {
-  font-size:1.7em;
+  font-size:1.2em;
   margin-bottom: 0.5em;
   max-width:80vw;
   text-align: center;
@@ -607,15 +610,15 @@ main .about_me div:nth-of-type(1) p span {
 main .about_me div:nth-of-type(2) {
   padding-left:6.2vw;
  position: relative;
- top:-6%;
+ top:-4%;
 }
 main .about_me div:nth-of-type(2) p {
   font-size: 0.8em;
 }
 main .services {
-  height:300vh;
+  height:290vh;
   width: 100vw;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   background-color: #f8f9fa;
 }
 main .services h1  {
@@ -626,17 +629,17 @@ main .services h1  {
 }
 main .services  h3 {
   position: relative;
-  top:-3.3%;
+  top:-2%;
 font-size:2em;
 text-align: center;
 }
 main .services hr {
-  top:-3.5%;
+  top:-2.2%;
  margin-bottom: 5em;
 }
 main .services div {
   left:0%;
-  top:-8%;
+  top:-6%;
  max-width:100vw;
  margin:auto;
 }
@@ -654,10 +657,13 @@ left:-27%;
   min-height:3.8em;
 }
 main .summary {
-height: 300vh;
+height: 255vh;
   margin-bottom: 0vh;
+position: relative;
+  top:-10em;
 }
 main .summary h1 {
+  
   font-size: 4em;
 }
 main .summary h3 {
@@ -691,9 +697,10 @@ margin-bottom: 3vh;
 main .summary .skills {
   display:flex;
   max-width:90vw;
-  margin:auto;
+  margin: 0 auto;
   flex-wrap: wrap;
  padding-left: 2em;
+
 }
 main .summary .skills h2 {
   display:block;
@@ -754,7 +761,7 @@ main .portfolio div img {
   max-width:90vw;
 }
 main .contact {
-height: 170vh;
+height: 150vh;
   max-width: 100vw;
 }
 main .contact h1 {
@@ -762,10 +769,10 @@ main .contact h1 {
 }
 main .contact h3 {
 font-size:2em;
-top:-6%;
+top:-4%;
 }
 main .contact hr {
-top: -6.5%;
+top: -4.5%;
 }
 main .contact .touch {
   max-width:90vw;
@@ -776,7 +783,7 @@ main .contact .touch .address {
   flex:100%;
   max-width:90vw;
   position: relative;
-  top:10vh;
+  top:0vh;
 }
 main .contact .touch .address h2 {
   font-size: 1.3em;
@@ -846,6 +853,9 @@ main .contact .touch .send form textarea{
 }
 main .contact .touch .send form button {
   top:3.5vh;
+  font-size: 1em;
+  padding: 0.8em 1.6em;
+  margin-right:5em;
 }
 footer {
   font-size: 1.2em;
