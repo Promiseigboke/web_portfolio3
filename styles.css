@@ -480,7 +480,7 @@ main .contact .touch .address h4 {
 }
 main .contact .touch .address .follow {
   display:flex;
- 
+ justify-content: center;
 }
 main .contact .touch .address .follow img {
   padding: 1em 1em 0em 0em;
