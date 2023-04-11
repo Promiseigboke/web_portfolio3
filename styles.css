@@ -10,7 +10,7 @@ body {
 }
 header {
   display:flex;
-  gap: 16em;
+  gap: 14em;
   padding:2.5em 1em 1em 3em;
   flex-wrap: wrap;
   background-color: #111418;
@@ -555,7 +555,7 @@ footer span {
   }
  header {
   padding:0.4em 0.4em 0.4em 1.2em;
-    gap:3.8em;
+    gap:3em;
     
   }
  header h1 {
